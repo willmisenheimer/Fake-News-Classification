@@ -6,7 +6,7 @@ The purpose of this project is to predict whether or news document is "real" or 
 RESULTS:
 Recorded accuracy on testing set: 94.86% (proportion of real/fake in testing set is 47.62%). This means that the model correctly classified almost 95% of the news articles that it had not yet seen. 
 
-![Confusion Matrix of trained model scoring testing data](ConfusionMatrix.png)
+![Confusion Matrix of trained model scoring testing data](ConfusionMatrix.PNG)
 
 POSSIBLE USES:
 A possible use of this model would be to identify and remove fake news from social media sites. It is very common for fake news to spread across social media outlets, distributing false information. This model could be implemented to identify articles that are likely to be "fake" news. These articles that are found highly probable to be consistent with known fake news articles could be reported to the governing source (Facebook or Twitter in many cases). Another possible use of this model could be to serve as the primary function of a web-based or desktop application. Users could interface with this model by scoring the pre-trained model with a news article(s) of their choosing, with a straightforward GUI. Thus, in scoring the pre-trained model, which would be re-trained in periodic updates, elements of transfer learning could also be applied. 
